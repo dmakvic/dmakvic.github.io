@@ -3,6 +3,6 @@ This repository contains my portfolio website
 
 ## Features
 
-- [ ] About me
+- [X] About me
 - [ ] Contact information
 - [ ] Projects
