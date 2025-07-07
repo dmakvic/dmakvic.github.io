@@ -25,14 +25,27 @@
                 margin-top: 16px;
                 margin-bottom: 16px;
             }
-            main{
+            main, footer{
                 margin-left: auto;
                 margin-right: auto;
                 max-width: 768px;
             }
+            header{
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 768px;
+            }
+            .wrapper{
+                        margin-left: auto;
+                        margin-right: auto;
+                        max-width: 768px;
+            }
+            .header{
+                background-color:gold ;
+            }
             img{
                 width: 50%;
-                aspect-ratio: 16 / 9;
+                aspect-ratio: 16 / 9;S
                 object-fit: cover;
             }
             ul{
@@ -45,9 +58,12 @@
         </style>
     </head>
     <body>
-        <main>
+        <header class="wrapper header">
+            <h1>Welcome to my portfolio!</h1>
+        </header>
+        <main class="wrapper header">
         <section>
-        <h1>About me</h1>
+        <h2>About me</h2>
         <p>My name is <strong>David Makvić</strong> and I am from Otrovanec.</p>
         <p>My skills include:</p>
         <ul>
@@ -68,7 +84,7 @@
         </ul>
         </section>
         <section>
-            <h1>Projects</h1>
+            <h2>Projects</h2>
             <ul>
                 <li>
                     <div><a href="/comapany-website/about.html"><img src="./media/company website.png" alt="company website"></a></div>
@@ -81,5 +97,8 @@
             </ul>
         </section>
         </main>
+        <footer class="wrapper header">
+            <p>&copy; David Makvić</p>
+        </footer>
     </body>
 </html>
